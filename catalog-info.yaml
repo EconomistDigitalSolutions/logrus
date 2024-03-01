@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+# This is the name of the component that will show up in the sidebar
+kind: Component
+metadata:
+  name: Logrus
+  title: logrus
+  description: Logrus is a structured logger for Go (golang), completely API compatible with the standard library logger.
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    # circleci.com/project-slug: NA 
+    # newrelic.com/dashboard-guid: NA
+    # snyk.io/org-name: NA
+    # snyk.io/project-ids: NA
+spec:
+  type: library
+  owner: group:the-economist/sunsetting
+  lifecycle: Production
+  system: system:the-economist/cp1 
+   # providesApis :   
+     # 
+   # consumesApis : 
+     #
+---
+
+  
